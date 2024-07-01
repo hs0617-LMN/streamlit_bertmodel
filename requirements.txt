@@ -6,3 +6,5 @@ numpy
 streamlit
 fugashi
 unidic-lite
+mecab-python3
+ipadic
