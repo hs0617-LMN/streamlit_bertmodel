@@ -1,0 +1,10 @@
+pandas
+transformers
+torch
+scikit-learn
+numpy
+streamlit
+mecab-python3
+unidic-lite
+fugashi
+mecab-ipadic-nekodic
