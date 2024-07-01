@@ -10,10 +10,8 @@ import subprocess
 # BERT日本語事前学習モデルの指定
 model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking'
 
-# Mecabとその辞書のインストール
-subprocess.run(['pip', 'install', 'mecab-python3'])
-subprocess.run(['pip', 'install', 'fugashi'])
-subprocess.run(['pip', 'install', 'unidic-lite'])
+# 必要なパッケージおよび辞書のインストール
+subprocess.run(['pip', 'install', 'mecab-python3', 'fugashi', 'unidic-lite', 'ipadic'])
 subprocess.run(['python3', '-m', 'unidic.download', '--unidic-lite'])
 
 # トークナイザとモデルの読み込み
